@@ -1,0 +1,106 @@
+/* AboutUs.css */
+
+/* Increase font size for the "About Us" heading */
+.about-us-heading {
+  font-size: 100px;
+  margin-bottom: 5px;
+  margin-top: 60px;
+  margin-left: 20px;
+  font-weight: bolder;
+}
+
+/* Set font size for general text in About Us */
+.text-container {
+  margin-top: 60px;
+  margin-left: 60px;
+}
+
+.urdu-text {
+  font-size: 25px;
+  /* color: green; */
+  /* text-align: center; */
+  margin-right: 50%;
+  margin-top: 70px;
+  font-weight: bold;
+  white-space: nowrap;
+  margin-left: -170px;
+}
+
+/* Adjust the size of the image */
+.flag-image {
+  width: 55%;
+  max-height: 480px;
+  object-fit: cover;
+  margin-top: -250px;
+  /* margin-right: 250px; */
+}
+
+/* AboutUs.css */
+.bottom-text {
+  /* text-align: center; */
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 70px;
+  margin-left: 33%;
+  color: #fcfafa; /* Adjust the color as needed */
+}
+
+/* Responsive styles for tablets (landscape) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .about-us-heading {
+    font-size: 80px;
+    margin-left: 10px;
+  }
+
+  .text-container {
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+
+  .urdu-text {
+    margin-top: 40px;
+    margin-left: -120px;
+  }
+
+  .flag-image {
+    width: 80%;
+    margin-top: -200px;
+  }
+
+  .bottom-text {
+    margin-top: 40px;
+    margin-left: 23%;
+  }
+}
+
+/* Responsive styles for mobile devices */
+
+@media (max-width: 767px) {
+  .about-us-heading {
+    font-size: 30px; /* Adjust the font size for mobile */
+    margin-left: 10px;
+  }
+
+  .text-container {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .urdu-text {
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+
+  .flag-image {
+    width: 50%;
+    margin-left: 30px;
+    /* margin-top: -150px; */
+  }
+  .image-boundry {
+    margin-top: 250px;
+  }
+  .bottom-text {
+    margin-top: 50px;
+    margin-left: 9%;
+  }
+}

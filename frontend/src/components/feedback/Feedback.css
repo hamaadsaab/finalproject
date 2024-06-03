@@ -1,0 +1,100 @@
+/* Feedback.css */
+
+.feedback-container {
+  /* position: fixed; */
+  margin-top: 130px;
+  margin-left: 10%;
+  width: 50%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback-box {
+  border: 2px solid #ffffff;
+  padding: 15px 20px !important;
+  text-align: left;
+  width: 75%;
+}
+.feedbk {
+  background-color: rgba(179, 179, 196, 0.203);
+  color: white;
+}
+
+.star {
+  cursor: pointer;
+  font-size: 24px;
+  color: #ddd;
+  transition: color 0.2s ease-in-out;
+}
+
+.star.yellow {
+  color: #ffc107;
+}
+
+.feedback-submit {
+  width: 200px; /* Adjust the width as needed */
+  background-color: #dc3545; /* Red color */
+  border-color: #dc3545;
+  cursor: pointer;
+  align-items: center;
+  margin-left: 120px;
+  margin-bottom: 40px;
+}
+
+.feedback-submit:hover {
+  background-color: #c82333; /* Darker red on hover */
+  border-color: #bd2130;
+}
+/* Feedback.css */
+
+/* Add this style to create some space between the form and the image */
+.flag-imag {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.flag-img {
+  margin-left: 570px;
+  margin-top: -350px;
+  height: 300px;
+}
+.chatbot-image {
+  width: 270px; /* Adjust the width of the image as needed */
+  margin-left: 350px;
+  height: 260px;
+}
+
+/* Optionally, you can add more styles for the chatbot button and text */
+.chatbot-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 20px;
+}
+
+.button-chatbot {
+  width: 100px;
+  background-color: #35dc5f;
+  cursor: pointer;
+  border-radius: 45%;
+  padding: 15px;
+  color: black;
+  font-weight: bolder;
+  margin-top: 35px;
+  margin-right: 90px;
+  border: #35dc5f;
+}
+.button-chatbot {
+  background-color: green;
+}
+.chatbot-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 250px;
+  margin-top: 30px;
+}

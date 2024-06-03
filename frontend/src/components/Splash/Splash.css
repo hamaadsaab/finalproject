@@ -1,0 +1,40 @@
+/* Splash.css */
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.splash-container {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.splash-image {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+}
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .splash-image {
+    width: 100%; /* Adjust the percentage based on your preference */
+    height: auto; /* Allow height to adjust proportionally */
+  }
+}
+
+/* Media query for larger screens, e.g., tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .splash-image {
+    width: 100%; /* Adjust the percentage based on your preference */
+    height: auto; /* Allow height to adjust proportionally */
+  }
+}

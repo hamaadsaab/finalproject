@@ -1,0 +1,188 @@
+body {
+  /* overflow: hidden; */
+  background-color: black;
+}
+.Header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  margin-left: 85px;
+  margin-top: -35%;
+}
+
+.web-logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-left: -42px;
+}
+
+.logout-btn {
+  margin-top: -3%;
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-right: 60px;
+  margin-left: 43%;
+  background-color: black;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 3px solid red;
+  box-shadow: 20px;
+  border-radius: 50px;
+}
+.logout-btn svg {
+  margin-right: 13px;
+  margin-left: -13px;
+  font-size: 1.2em;
+}
+.user-info-container-webcam {
+  background-color: #585757;
+  border-radius: 10px;
+  margin-top: -65px;
+  padding: 20px;
+  align-items: center;
+  width: 25%;
+  margin-left: 30px;
+}
+.user-info-container-webcam .user-image-container-webcam {
+  margin-left: 10px;
+}
+.user-image-container-webcam img {
+  width: 220px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: -20%;
+}
+
+.user-image-container-webcam p {
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 25px;
+  margin-left: -15px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 6%;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-weight: bold;
+  margin-left: -4%;
+  font-size: 18px;
+
+  width: 27%;
+}
+.under-links {
+  width: 100%;
+  margin-left: 20%;
+  border-radius: 10px;
+
+  padding: 5px;
+}
+.link-under {
+  width: 27%;
+}
+.home-link {
+  background-color: #585757;
+  width: 27%;
+  margin-left: -47px;
+  border-radius: 10px;
+}
+.linkto-home {
+  margin-left: 20%;
+}
+.nav-link svg {
+  margin-right: 25px; /* Add margin to the right of each icon */
+  font-size: 21px;
+}
+.link-under {
+  position: relative;
+}
+
+.link-under::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px; /* Adjust the height of the horizontal line */
+  background-color: rgba(
+    165,
+    161,
+    161,
+    0.345
+  ); /* Color of the horizontal line */
+}
+.settings-link::after {
+  content: none;
+}
+.nav-link:hover,
+.active-link {
+  background-color: #333333;
+}
+
+.web-container {
+  background-color: #585757;
+  border: 2px solid white;
+  padding: 40px;
+  margin-right: 3%;
+  width: 50%;
+  margin-left: auto;
+  margin-top: -37%;
+  height: 90%;
+  align-items: center;
+}
+/* .first-div {
+  margin-top: 12px;
+} */
+.inner-div {
+  background-color: grey;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 5px;
+  height: 65%;
+} /* Add these styles to your CSS file */
+
+.video-call-btn,
+.search-button {
+  background-color: red;
+  color: #0d0d0d;
+  padding: 13px;
+  border-radius: 40px;
+  cursor: pointer;
+  margin-left: 27%;
+  border: none;
+  width: 27%;
+  margin-top: -60%;
+  font-weight: bolder;
+  /* align-items: center; */
+}
+.btn-search {
+  margin-top: -90%;
+  margin-left: 30%;
+}
+.video-call-button:hover,
+.search-button:hover {
+  background-color: darkred;
+}
+.video-icon,
+.search-icon {
+  font-size: 100px;
+  margin-left: 10%;
+  margin-bottom: -25px;
+}

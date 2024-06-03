@@ -1,0 +1,32 @@
+body {
+  /* overflow: hidden; */
+  background-color: black;
+}
+.Header-tc {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  margin-left: 87%;
+  /* margin-top: -3%; */
+}
+
+.weblogo-cookie {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  /* margin-right: -100%; */
+  /* margin-left: 150%; */
+  margin-top: 25%;
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+.Heading-tc {
+  font-weight: bolder;
+  font-size: 20px;
+  color: rgb(227, 26, 26);
+}
+.cookiePolicy-text {
+  margin-bottom: 20px;
+  margin-top: -5%;
+  margin-left: 25px;
+}

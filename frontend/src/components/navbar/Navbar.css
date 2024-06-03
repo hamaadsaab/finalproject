@@ -1,0 +1,97 @@
+.logo {
+  margin-right: 0px;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin-left: 20px;
+}
+
+.nav-lnk {
+  color: white !important;
+  font-weight: bolder;
+  margin-right: 30px;
+  font-size: 20px;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
+.nav-lnk:hover {
+  color: red !important;
+}
+
+.searchbar {
+  margin-left: auto;
+  margin-right: 40px;
+  padding: 20px;
+}
+
+.searchInput {
+  width: 150px;
+}
+
+.position-relative {
+  position: relative;
+}
+.searchbar input::placeholder {
+  color: black;
+}
+.searchIcon {
+  position: absolute;
+  top: 50%;
+  right: 10px; /* Adjust the right distance as needed */
+  transform: translateY(-50%);
+  color: black;
+  cursor: pointer;
+}
+
+/* Add your other styles */
+
+/* Responsive Styles */
+@media (max-width: 991.98px) {
+  .menu {
+    margin-right: 30px;
+  }
+  .nav-link {
+    font-size: 30px;
+    margin-right: 20px;
+  }
+
+  .searchbar {
+    margin-left: auto;
+    margin-right: 20px;
+    padding: 10px;
+  }
+
+  .searchInput {
+    width: 100px;
+  }
+
+  .searchIcon {
+    right: 5px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  menu {
+    margin-right: 20px;
+  }
+
+  .nav-link {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+
+  .searchbar {
+    margin-left: auto;
+    margin-right: 10px;
+    padding: 5px;
+  }
+
+  .searchInput {
+    width: 80px;
+  }
+
+  .searchIcon {
+    right: 5px;
+  }
+}

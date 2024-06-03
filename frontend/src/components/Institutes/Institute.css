@@ -1,0 +1,83 @@
+/* Institute.css */
+
+.container-institute {
+  margin-top: 50px; /* Adjust as needed */
+}
+.font-weight-bold {
+  margin-left: 50px;
+}
+.map-container {
+  height: 400px; /* Adjust the height as needed */
+  border: 1px solid #ccc; /* Add border or customize as needed */
+  margin-bottom: 20px; /* Adjust spacing */
+  margin-left: 20px;
+}
+
+.image-container {
+  height: 400px; /* Adjust the height as needed */
+  overflow-y: auto; /* Enable scrolling for the image container */
+  border: 1px solid #ccc; /* Add border or customize as needed */
+  overflow-x: hidden;
+  background-color: white;
+  /* margin-top: 20%; */
+  margin-top: -1px;
+  width: 90%;
+  margin-left: 20px;
+}
+
+/* .image-container {
+  height: 400px; 
+  overflow-y: auto; 
+  border: 1px solid #ccc;
+  overflow-x: hidden;
+  background-color: white;
+  margin-top: 40%;
+  width: 50%;
+} */
+
+/* Add styling for the two div boxes */
+.image-container .image-box {
+  background-color: #fff; /* White background */
+  border: 1px solid #ccc; /* Add border or customize as needed */
+  padding: 25px; /* Adjust padding as needed */
+  margin-bottom: 20px; /* Adjust spacing between boxes */
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+.image-box {
+  color: black;
+}
+
+.foundation {
+  margin-top: -10px;
+  font-weight: bold;
+  margin-left: 55%;
+  width: 73%;
+  text-align: start;
+  white-space: normal;
+}
+.image-box img {
+  width: 42%;
+  max-height: 130px;
+  margin-left: -10px;
+  margin-top: -25px;
+  border-radius: 10px;
+}
+
+.stars {
+  margin-left: 50%;
+  margin-top: -20%;
+}
+.location {
+  margin-left: 55%;
+  margin-top: 10px;
+}
+.location-icon {
+  margin-left: 55%;
+  margin-top: -25%;
+}
+.kilo-meter {
+  margin-left: 60%;
+  margin-top: -25px;
+}

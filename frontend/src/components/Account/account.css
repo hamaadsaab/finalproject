@@ -1,0 +1,265 @@
+body {
+  /* overflow: hidden; */
+  background-color: black;
+}
+.account_Header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  margin-left: 80%;
+  margin-top: 1%;
+}
+
+.weblog {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-left: 60%;
+  margin-top: 10%;
+}
+
+.user-info-container {
+  background-color: #585757;
+  border-radius: 10px;
+  margin-top: -80px;
+  padding: 15px;
+  align-items: center;
+  width: 25%;
+  margin-left: 25px;
+}
+.user-info-container .user-image-container {
+  margin-left: 45px;
+}
+.user-image-container-account img {
+  width: 220px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.user-image-container-account p {
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 25px;
+  margin-left: 15px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 6%;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-weight: bold;
+  margin-left: -4%;
+  font-size: 18px;
+
+  width: 27%;
+}
+.under-links {
+  width: 100%;
+  margin-left: 20%;
+  border-radius: 10px;
+
+  padding: 5px;
+}
+.link-under {
+  width: 27%;
+}
+.home-link {
+  background-color: #585757;
+  width: 27%;
+  margin-left: -47px;
+  border-radius: 10px;
+}
+.linkto-home {
+  margin-left: 20%;
+}
+.nav-link svg {
+  margin-right: 25px; /* Add margin to the right of each icon */
+  font-size: 21px;
+}
+.link-under {
+  position: relative;
+}
+
+.link-under::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px; /* Adjust the height of the horizontal line */
+  background-color: rgba(
+    165,
+    161,
+    161,
+    0.345
+  ); /* Color of the horizontal line */
+}
+.settings-link::after {
+  content: none;
+}
+.nav-link:hover,
+.active-link {
+  background-color: #333333;
+}
+
+.account-text {
+  margin-left: 35%;
+  margin-top: -40%;
+  font-size: 35px;
+  font-weight: bolder;
+  color: white;
+}
+.line {
+  width: 27%;
+  border-top: 2px solid #b9b7b75b;
+  margin-left: 2px;
+  margin-top: -30px;
+}
+
+.user-details {
+  margin-top: 5px;
+  /* padding-top: 20px; */
+  /* border-top: 1px solid #ccc; */
+  display: flex;
+  align-items: center;
+  margin-left: 35%;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-detail-image {
+  width: 60px; /* Adjust the width as needed */
+  height: 60px; /* Adjust the height as needed */
+  border-radius: 50%; /* Ensure the image is rounded */
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.user-name {
+  font-size: 25px;
+  padding-left: 7px;
+  color: white;
+}
+
+.edit-icon {
+  margin-left: -12%;
+  margin-top: 6%;
+  font-size: 15px;
+  color: #faf3f3;
+}
+.general-text {
+  margin-left: 35%;
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+}
+.line-2 {
+  width: 35%;
+  border-top: 1px solid #8a88885b;
+  margin-left: 1px;
+  margin-top: -30px;
+}
+.general-info {
+  margin-left: 35%;
+  margin-top: 10px;
+  color: white;
+}
+
+.field {
+  margin-bottom: 5px;
+}
+
+.field label {
+  font-weight: bold;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.field-value {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.field-value p {
+  margin-right: 10px;
+  font-size: 20px;
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 2px;
+}
+
+.field-value svg {
+  color: #faf3f3;
+  cursor: pointer;
+}
+.access-text {
+  margin-left: 65%;
+  margin-top: -16%;
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+}
+.line-3 {
+  width: 65%;
+  border-top: 1px solid #8a88885b;
+  margin-left: -2px;
+  margin-top: -30px;
+}
+.change-password,
+.delete-accounts {
+  margin-top: 30px;
+}
+
+/*  */
+
+.button-field {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-left: 65%;
+}
+
+.change-password-btn,
+.delete-accounts-btn {
+  background-color: transparent;
+  border: 1px solid #ccc;
+  color: white;
+  width: 300px;
+  font-size: 15px;
+  padding: 5px 1px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 8px;
+  margin-top: 5px;
+}
+
+/* .delete-accounts-btn {
+  width: 150px;
+} */
+.change-password-btn:hover,
+.delete-accounts-btn:hover {
+  background-color: #333;
+}
+
+.change-password-btn:focus,
+.delete-account-btn:focus {
+  outline: none;
+}
+
+.change-password-btn svg,
+.delete-account-btn svg {
+  margin-right: 5px;
+}

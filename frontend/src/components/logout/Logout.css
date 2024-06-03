@@ -1,0 +1,254 @@
+body {
+  background-color: black;
+  /* overflow: hidden; */
+}
+
+.Header-logout {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  margin-left: 87%;
+  margin-top: -1%;
+}
+
+.weblogo-logout {
+  width: 70px;
+  margin-top: 20%;
+  border-radius: 50%;
+  margin-left: 120%; /*
+  height: 70px;
+
+  
+  */
+}
+
+/* .logout-btn {
+  margin-top: 10%;
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-right: 60px;
+  background-color: black;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 3px solid red;
+  box-shadow: 20px;
+  border-radius: 50px;
+} */
+
+/* .logout-btn svg {
+  margin-right: 13px;
+  margin-left: -13px;
+  font-size: 1.2em;
+} */
+
+.user-info-container-logout {
+  background-color: #585757;
+  border-radius: 10px;
+  margin-top: -70px;
+  padding: 20px;
+  align-items: center;
+  width: 25%;
+  margin-left: 30px;
+}
+
+.user-info-container-logout .user-image-container-logout {
+  margin-left: 10px;
+}
+
+.user-image-container-logout img {
+  width: 220px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: -20%;
+}
+
+.user-image-container-logout p {
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 25px;
+  margin-left: -15px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 6%;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-weight: bold;
+  margin-left: -4%;
+  font-size: 18px;
+
+  width: 27%;
+}
+.under-links {
+  width: 100%;
+  margin-left: 20%;
+  border-radius: 10px;
+
+  padding: 5px;
+}
+.link-under {
+  width: 27%;
+}
+.home-link {
+  background-color: #585757;
+  width: 27%;
+  margin-left: -47px;
+  border-radius: 10px;
+}
+.linkto-home {
+  margin-left: 20%;
+}
+.nav-link svg {
+  margin-right: 25px; /* Add margin to the right of each icon */
+  font-size: 21px;
+}
+.link-under {
+  position: relative;
+}
+
+.link-under::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px; /* Adjust the height of the horizontal line */
+  background-color: rgba(
+    165,
+    161,
+    161,
+    0.345
+  ); /* Color of the horizontal line */
+}
+.settings-link::after {
+  content: none;
+}
+.nav-link:hover,
+.active-link {
+  background-color: #333333;
+}
+
+.deleteAcount {
+  margin-left: 30%;
+  margin-top: -40%;
+  overflow: hidden; /* Remove any potential overflow */
+}
+
+.underAcount {
+  position: relative;
+}
+
+.underAcount::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 20;
+  left: 0;
+  width: 50%;
+  height: 2px; /* Adjust the height of the horizontal line */
+  background-color: rgba(
+    247,
+    247,
+    247,
+    0.146
+  ); /* Color of the horizontal line */
+}
+
+.sorry::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 20;
+  left: 0;
+  width: 50%;
+  height: 2px; /* Adjust the height of the horizontal line */
+  background-color: rgba(
+    247,
+    247,
+    247,
+    0.146
+  ); /* Color of the horizontal line */
+}
+
+.heyuser {
+  font-size: 24px;
+}
+
+.reason-dropdown {
+  background-color: black;
+  color: white; /* text color */
+  border: 1px solid white;
+  padding: 6px;
+  padding-right: 120px;
+  border-radius: 4px; /* add rounded corners if desired */
+  margin-top: 10px; /* adjust as needed */
+  text-align: left;
+}
+
+/* Style for dropdown options */
+.reason-dropdown option {
+  background-color: black;
+  color: white;
+  text-align: left;
+}
+
+.password-input {
+  /* position: relative; */
+  margin-bottom: 20px;
+}
+
+.password-input .form-control {
+  /* width: calc(100% - 40px); */
+  width: 100px;
+  padding: 10px;
+  padding-right: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid white;
+  color: white;
+  border-radius: 4px;
+  transition: background-color 0.3s; /* Add transition for a smooth effect */
+}
+
+.password-toggle-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: white;
+}
+
+/* Set a different background color and text color when showing password */
+.password-input .show-password .form-control {
+  background-color: white;
+  color: black;
+}
+
+.delete-account-btn {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 12px 28px; /* Adjusted padding */
+  border-radius: 20px; /* Adjusted border radius */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Add transition for a smooth effect */
+}
+
+.delete-account-btn:hover {
+  background-color: darkred; /* Change color on hover if desired */
+}

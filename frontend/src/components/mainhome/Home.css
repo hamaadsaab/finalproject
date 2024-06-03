@@ -1,0 +1,103 @@
+/* src/components/Home.css */
+body {
+  background-color: rgba(0, 0, 0, 0.927); /* Use rgba for transparency */
+  color: white; /* Text color */
+  overflow: scroll;
+}
+
+.custom-container {
+  padding: 20px; /* Adjust padding as needed */
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.red-text {
+  color: red;
+  font-size: 40px;
+  font-family: cursive;
+}
+
+.white-text {
+  /* color: white; */
+  margin-top: 30px;
+  color: yellow;
+}
+.welcome {
+  font-size: 60px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.text-center {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.smaller-image {
+  max-height: 400px;
+  margin-top: 20px; /* Adjust the max height as needed */
+  background-color: black;
+  border-radius: 50%;
+  margin-right: -20px;
+}
+.menu-clicked .smaller-image {
+  max-height: 150px; /* Set your desired size when the menu is clicked */
+  transition: max-height 0.5s ease; /* Add a smooth transition effect */
+}
+.btn-custom {
+  color: white;
+  margin-right: 10px;
+  width: 100px; /* Set the width as needed */
+  border-radius: 35px; /* Set the border radius */
+  padding: 10px;
+  font: bolder;
+  margin-left: auto;
+}
+.btn-login {
+  background-color: #008000; /* Parrot green */
+  font-weight: bolder; /* Make the text bolder */
+  color: black;
+  margin-top: -25px; /* Move the button slightly higher */
+}
+.btn-login:hover {
+  background-color: #0a310a;
+  color: white;
+}
+.btn-signup {
+  background-color: red;
+  font-weight: bolder; /* Make the text bolder */
+  margin-top: -25px; /* Move the button slightly higher */
+  margin-right: -90px;
+}
+.btn-signup:hover {
+  background-color: rgb(88, 9, 9);
+  color: black;
+}
+.bismillah {
+  font-size: 0.5em;
+  font-family: "Noto Nastaliq Urdu", "Lobster", cursive, "Tahoma", sans-serif;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+/* Responsive styles for mobile view */
+@media (max-width: 767.98px) {
+  .smaller-image {
+    max-height: none; /* Remove max-height on small screens */
+  }
+  .d-md-none {
+    display: none; /* Hide on medium and larger screens */
+  }
+  .d-block {
+    display: block !important; /* Display on small screens */
+  }
+  .mx-auto {
+    margin-left: auto !important;
+    margin-right: auto !important; /* Center horizontally on small screens */
+  }
+}

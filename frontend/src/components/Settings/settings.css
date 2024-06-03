@@ -1,0 +1,365 @@
+body {
+  /* overflow: hidden; */
+  background-color: black;
+}
+.account_Header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  margin-left: 80%;
+  margin-top: 1%;
+}
+
+.weblogo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-left: 60%;
+  margin-top: 10%;
+}
+
+.user-info-container {
+  background-color: #585757;
+  border-radius: 10px;
+  margin-top: -80px;
+  padding: 15px;
+  align-items: center;
+  width: 25%;
+  margin-left: 25px;
+}
+.user-info-container .user-image-container {
+  margin-left: 45px;
+}
+.user-image-container img {
+  width: 220px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: -30%;
+  margin-top: 10px;
+}
+
+.user-image-container p {
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 25px;
+  margin-left: -15px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 6%;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-weight: bold;
+  margin-left: -4%;
+  font-size: 18px;
+
+  width: 27%;
+}
+.under-links {
+  width: 100%;
+  margin-left: 20%;
+  border-radius: 10px;
+
+  padding: 5px;
+}
+.link-under {
+  width: 27%;
+}
+.home-link {
+  background-color: #585757;
+  width: 27%;
+  margin-left: -47px;
+  border-radius: 10px;
+}
+.linkto-home {
+  margin-left: 20%;
+}
+.nav-link svg {
+  margin-right: 25px; /* Add margin to the right of each icon */
+  font-size: 21px;
+}
+.link-under {
+  position: relative;
+}
+
+.link-under::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px; /* Adjust the height of the horizontal line */
+  background-color: rgba(
+    165,
+    161,
+    161,
+    0.345
+  ); /* Color of the horizontal line */
+}
+.settings-link::after {
+  content: none;
+}
+.nav-link:hover,
+.active-link {
+  background-color: #333333;
+}
+
+.settings-text {
+  margin-left: 32%;
+  margin-top: -42%;
+  font-size: 30px;
+  font-weight: bolder;
+  color: white;
+}
+/* .line {
+  width: 27%;
+  border-top: 2px solid #b9b7b75b;
+  margin-left: 2px;
+  margin-top: -30px; 
+}*/
+.notification-text {
+  margin-left: 32%;
+  margin-top: 3%;
+  font-size: 26px;
+  font-weight: bolder;
+  color: white;
+}
+/* .line-2 {
+  width: 35%;
+  border-top: 1px solid #8a88885b;
+  margin-left: 1px;
+  margin-top: -30px;
+} */
+.dnd-toggle {
+  margin-left: 33%;
+  margin-top: 1%;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.58);
+}
+.Switch {
+  margin-left: 50%;
+  margin-top: -53px;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #21f356;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #21f372;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.nmc-toggle {
+  margin-left: 33%;
+  margin-top: 2%;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.58);
+}
+.Switch-2 {
+  margin-left: 50%;
+  margin-top: -53px;
+}
+.switch-2 {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+.switch-2 input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider-2 {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.slider-2:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider-2 {
+  background-color: #21f356;
+}
+
+input:focus + .slider-2 {
+  box-shadow: 0 0 1px #21f372;
+}
+
+input:checked + .slider-2:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+.slider-2.round-2 {
+  border-radius: 34px;
+}
+
+.slider-2.round-2:before {
+  border-radius: 50%;
+}
+.blocking-text {
+  margin-left: 32%;
+  margin-top: 3%;
+  font-size: 26px;
+  font-weight: bolder;
+  color: white;
+}
+.line-3 {
+  width: 35%;
+  border-top: 1px solid #8a88885b;
+  margin-left: 1px;
+  margin-top: -30px;
+}
+.blocklist-text {
+  margin-left: 32%;
+  margin-top: 1%;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.58);
+  cursor: pointer;
+}
+/* .line-4 {
+  width: 35%;
+  border-top: 1px solid #8a88885b;
+  margin-left: 1px;
+  margin-top: -23px;
+} */
+.blocked-user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.blocked-user p {
+  margin-right: -30%;
+  color: white;
+}
+
+.blocked-user button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.blocked-user button:hover {
+  background-color: #d32f2f;
+}
+.community-text {
+  margin-left: 65%;
+  margin-top: -18.5%;
+  font-size: 28px;
+  font-weight: bolder;
+  color: white;
+}
+/* .line-5 {
+  width: 72%;
+  border-top: 1px solid #8a88885b;
+  margin-left: -2px;
+  margin-top: -30px;
+} */
+.cookies-policy {
+  margin-top: 30px;
+  margin-left: 73%;
+  text-decoration: none;
+}
+
+.cookies-policy-btn {
+  color: rgba(255, 255, 255, 0.58);
+  font-size: 25px;
+  border: 0;
+  margin-bottom: 8px;
+  margin-top: 15px;
+  font-family: Kreon;
+  text-decoration: none;
+}
+
+.about-us {
+  margin-top: 30px;
+  margin-left: 73%;
+}
+
+.about-us-btn {
+  color: rgba(255, 255, 255, 0.58);
+  font-size: 25px;
+  border: 0;
+  text-decoration: none;
+  margin-bottom: 8px;
+  margin-top: 15px;
+  font-family: Kreon;
+}
